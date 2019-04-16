@@ -1,4 +1,4 @@
-ar myNodelist = document.getElementsByTagName("Li");
+var myNodelist = document.getElementsByTagName("Li");
 var i;
 for(i=0; i < myNodelist; i++){
     var span = document.createElement("SPAN");
@@ -50,5 +50,3 @@ function newElement(){
         }
     }
 }
-
-
